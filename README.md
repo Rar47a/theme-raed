@@ -94,13 +94,14 @@ Theme Raed will be installed as the default theme when you install Twilight. We'
         |   +---footer
         |   +---header
         |   +---home
-        |   +---product
-        |   comments.twig
         +---layouts
+        |       customer.twig
         |       master.twig
         +---pages
             |   cart.twig
             |   index.twig
+            |   testimonials.twig
+            |   landing-page.twig
             |   loyalty.twig
             |   page-single.twig
             |   thank-you.twig
@@ -113,18 +114,16 @@ Theme Raed will be installed as the default theme when you install Twilight. We'
             +---customer
                |   notifications.twig
                |   profile.twig
+               |   wallet.twig
                |   wishlist.twig
                +---orders
                |      index.twig
                |      single.twig
             +---partials
-                |   single-comment.twig
+                |   loading-screen-assets.twig
                 +---product
-                  |   card-full-image.twig
-                  |   card-mini.twig
-                  |   card.twig
+                  |   reservations.twig
                   |   options.twig
-                  |   slider.twig
             +---product
             |       index.twig
             |       single.twig
